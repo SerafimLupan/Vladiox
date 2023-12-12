@@ -1,0 +1,1108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body,html{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+}
+
+header {
+    background: linear-gradient(#b00000dc, #9c0202dc, #810000dc);
+    min-height: 75px;
+    padding-right: 5%;
+
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+p{
+    font-size: 24px;
+    font-family: Roboto;
+    color: #000;
+}
+
+.dormitoare-section{
+    min-height: 108vh;
+}
+
+.coltare-section{
+    min-height: 145vh;
+}
+
+.logo{
+    width: auto;
+    height: 115px;
+    object-fit: cover;
+    float: left;
+    margin: 10px 10px 10px 30px;
+}
+
+.logo:hover{
+    transform: scale(1.10);
+}
+
+navbar {
+    display: block;
+    overflow: auto;
+}
+
+navbar.mobile a {
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: block; 
+    
+    margin: 12px 0 8px 0;
+}
+
+navbar a {
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: none;
+    
+    margin: 5px;
+}
+
+navbar.mobile a:hover{
+    transform: scale(1.10);
+    text-decoration: underline;
+}
+
+#hamburger {
+    color: white; 
+    font-size: 56px;
+    position: absolute;
+    right: 22px;
+    top: 42px;
+    cursor: pointer;
+    display: block;
+}
+
+.parteneri:hover{
+    text-decoration: underline;
+}
+
+
+#index-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    position: relative;
+    z-index: -1;
+}
+
+.section-info-index{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 15%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-produse{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 12%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-contacte{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 26%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-comanda{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 20%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-living{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 7.5%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-dulapuri{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 9.5%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-dormitoare{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 4%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-coltare{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 3%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+.section-info-bucatarii{
+    margin-top: 80px;
+    margin: 80px 50px 5px;
+    position: absolute;
+    
+    top: 15%;
+    left: 11.5%;
+
+    font-family: Kaushan Script;
+    color: white;
+   
+}
+
+[class^="section-info-"]{
+    animation-name: intro-info;
+    animation-duration: 2s;
+}
+
+@keyframes intro-info{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.top-section {
+    height: 65vh !important;
+    min-height: 520px !important;
+}
+
+section.top-section:first-child{
+    background-color: #28282954;
+    height: 50vh;
+    min-height: 220px;
+}
+
+section:first-child{
+    min-height: 95px;
+}
+
+.biografie{
+    padding: 5px 25px 10px 25px;
+    margin: 10px 15px 10px;
+}
+
+.biografie a{
+    color: rgb(0, 60, 255);
+}
+
+.centered{
+    text-align: center;
+
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.row{
+    overflow: auto;
+}
+
+.col-19{
+    width: 19%;
+    float: left;
+}
+
+.col-33{
+    width: 33,33%;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    float: left;
+}
+
+.col-80{
+    width: 80%;
+    float: left;
+}
+
+[class^="col-"]{
+    padding: 0px 10px 10px 10px;
+}
+
+.card-comanda{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 10px 15px;
+    padding: 5px 15px;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-comanda input, textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Roboto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ac0606ef;
+}
+
+.card-comanda p{
+    font-size: 18px;
+}
+
+.card-produse h3{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.card-produse{
+    width: 33%;
+    height: auto;
+
+    display: flex;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 225px;
+    height: 225px;
+    line-height: 225px;
+
+    margin: 0 10px 10px 10px ;
+
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    font-size: 30px;
+
+    transition: all 0.45s;
+}
+
+.card .dormitoare{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare.jpeg);
+}
+
+.card .dulapuri{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri.jpeg);
+}
+
+.card .coltare{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltare_si_mese.jpeg);
+}
+
+.card .living{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/livinguri_si_antreuri.jpeg);
+}
+
+.card .bucatarii{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/bucatarii.jpeg);
+}
+
+.card .electronice{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/electronice.jpg);
+}
+
+.card .classic{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-classic.jpeg);
+}
+
+.card .inter3{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-inter-3.jpeg);
+}
+
+.card .cristal{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-cristal.jpeg);
+}
+
+.card .rio{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-rio.jpeg);
+}
+
+.card .happy{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-happy.jpeg);
+}
+
+.card .fenix{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-fenix.jpeg);
+}
+
+.card .inter{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-inter.jpeg);
+}
+
+.card .bravo{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-bravo.jpeg);
+}
+
+.card .amigo{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-amigo.jpeg);
+}
+
+.card .inter-star{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-inter-star.jpeg);
+}
+
+.card .frankfurt{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-frankfurt.jpeg);
+}
+
+.card .samba{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dormitoare-samba.jpeg);
+}
+
+.card .d-siesta{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri.jpeg);
+}
+
+.card .d-classic{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-classic.jpeg);
+}
+
+.card .d-venus{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-venus.jpeg);
+}
+
+.card .d-tango{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-tango.jpeg);
+}
+
+.card .d-cristal{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-cristal.jpeg);
+}
+
+.card .d-rio{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-rio.jpeg);
+}
+
+.card .d-inter3{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-inter-3.jpeg);
+}
+
+.card .d-happy{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-happy.jpeg);
+}
+
+.card .d-fenix{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-fenix.jpeg);
+}
+
+.card .d-bravo{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-bravo.jpeg);
+}
+
+.card .d-inter{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-inter.jpeg);
+}
+
+.card .d-inter-star{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-inter-star.jpeg);
+}
+
+.card .d-amigo{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/dulapuri-amigo.jpeg);
+}
+
+.card .c-pandora{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltare-pandora.jpeg);
+}
+
+.card .c-ambasador{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltare-ambasador.jpeg);
+}
+
+.card .c-studio-exten{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltar-studio.jpeg);
+}
+
+.card .c-saxonia{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltare-saxonia.jpeg);
+}
+
+.card .c-cezar{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltare-cezar.jpeg);
+}
+
+.card .c-cleo2{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltare-cleo-2.jpeg);
+}
+
+.card .c-cleo2-eco{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/coltare-cleo-2-eco.jpeg);
+}
+
+.card .m-cleo3-exten{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masa-cleo-3.jpeg);
+}
+
+.card .m-mia{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masa-mia.jpeg);
+}
+
+.card .m-transformer{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masa-transformer.jpeg);
+}
+
+.card .m-trio{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masa-trio.jpeg);
+}
+
+.card .ma-oscar{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masuta-oscar.jpeg);
+}
+
+.card .ma-nova{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masuta-nova.jpeg);
+}
+
+.card .ma-rondo{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masuta-rondo.jpeg);
+}
+
+.card .m-tina-exten{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/masa-tina-suspendata.jpeg);
+}
+
+.card .l-duet{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/living-duet.jpeg);
+}
+
+.card .l-eldorado{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/living-eldorado.jpeg);
+}
+
+.card .l-oscar{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/living-oscar.jpeg);
+}
+
+.card .a-solaris{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/antreu-solaris.jpeg);
+}
+
+.card .a-bruno{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/antreu-bruno.jpeg);
+} 
+
+.card .a-mix{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/antreu-mix.jpeg);
+}
+
+.card .b-perla{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/bucatarie-perla.jpeg);
+
+}
+
+.card .b-felicia{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/bucatarie-felicia.jpeg);
+
+}
+
+.card .b-iris{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/bucatarie-iris.jpeg);
+
+}
+
+.card .b-dolce{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/bucatarie-dolce.jpeg);
+
+}
+
+.card .b-fresh{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-image: url(../images/bucatarie-fresh.jpeg);
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+    filter: contrast(1.45);
+}
+
+.top-section-produse{
+    height: 1px;
+}
+
+.produs-info{
+    min-height: 120vh;
+}
+
+.denumire-produs{
+    text-align: center;
+    text-shadow: 0 0 3px #000;
+    font-size: 40px;
+
+    padding-top: 20px;
+}
+
+.img-produs{
+    padding: 5px 0 0 20px;
+    
+    width: 455px;
+    height: 308px;
+
+    border-color: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 7px;
+}
+
+#color-p{
+    color: #61380a;
+}
+
+.card-back{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardul .back{
+    width: 100%;
+    height: 35px;
+
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 7px;
+
+    background-color: #b00000dc;
+
+    margin: 0 10px 10px 10px ;
+
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    font-size: 30px;
+
+    transition: all 0.4s;
+}
+
+.cardul .back:hover{
+    color: rgb(211, 211, 211);
+    text-shadow: 0 0 3px rgb(120, 1, 1);
+
+    transform: scale(1.15);
+}
+
+select{
+    width: 150px;
+}
+
+label{
+    color: red;
+}
+
+textarea{
+    align-items: center;
+}
+
+#submit{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #b00000dc;
+
+    transition: all 0.45s;
+}
+
+#submit:hover{
+    transform: scale(1.03);
+    border: 1px solid #179713ef;
+}
+
+.location img{
+    height: 25px;
+    padding-left: 35px;
+}
+
+.location a{
+    color: black;
+    font-size: 28px;
+    font-family: Roboto;
+    padding-left: 3px;
+}
+
+.location iframe{
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 3px solid #212631;
+    border-radius: 5px;
+    width: 100%;
+    height: 40vh;
+    padding: 10px 100px;
+}
+
+.card-contacte h3{
+    margin-top: 20px;
+    padding-top: 20px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-contacte{
+    width: 50%;
+    height: auto;
+    min-height: 300px;
+
+    display: flex;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card .instagram, .facebook{
+    width: 256px;
+    height: 256px;
+    line-height: 256px;
+
+    margin: 0 10px 10px 10px ;
+
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+    font-size: 25px;
+}
+
+.card .instagram{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 25%;
+    background: 100% url(https://cdn-icons-png.flaticon.com/256/1409/1409946.png);
+}
+
+.card .facebook{
+    box-shadow: rgb(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 50%;
+    background: 100% url(https://cdn-icons-png.flaticon.com/256/3670/3670124.png);
+}
+
+.link{
+    text-align: center;
+}
+
+.adres-tel{
+    margin: 5px 10px 12px;
+    padding-left: 45px;
+}
+
+footer{
+    text-shadow: 0 0 4px #000;
+    font-family: Roboto;
+    min-height: 70px;
+    background: linear-gradient( #463e3c, #443c3a, #302a29);
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+
+.logo-tekwil{
+    margin-top: 20px;
+
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+}
+
+footer h2{
+    color: rgba(168, 28, 28, 0.979);
+}
+
+@media (max-width: 1180px){
+    navbar a{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1100px){
+
+    navbar a{
+        font-size: 20px;
+
+        padding: 0;
+        margin: 2.5px 5px 2.5px 5px;
+    }
+}
+
+@media (max-width: 1025px){
+
+    navbar a{
+        font-size: 24px;
+
+        padding: 0;
+        margin: 2.5px 5px 2.5px 5px;
+    }
+}
+
+@media (max-width: 800px){
+
+    body{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 19px;
+    }
+
+    .logo{
+        width: 1px;
+        height: 1px;
+
+    }
+
+    navbar a{
+        display: none;
+        text-align: center;
+    }
+
+    navbar.mobile a{
+        display: block; 
+        text-align: center;
+
+        padding: 0;
+        margin: 5px;
+    }
+    
+    navbar {
+        display: block;
+    }
+    
+    #hamburger {
+        display:block;
+    }
+
+    #hamburger { 
+        font-size: 26px;
+        position: absolute;
+
+        right: 12px;
+        top: 22px;
+
+        cursor: pointer;
+        display: block;
+    }
+
+    header{
+        min-height: 60px;
+        padding-right: 5px;
+    }
+
+    .top-section{
+        background-size: auto;
+        background-position: 70% 0%;
+    }
+
+    .section-info-index, .section-info-bucatarii, .section-info-coltare, .section-info-comanda, .section-info-contacte, .section-info-dormitoare, .section-info-dulapuri, .section-info-living, .section-info-produse{
+        font-size: 20px;
+        text-align: center;
+
+        top: 12%;
+        left: 6%;
+    }
+    
+    section:not(:first-child){
+        padding: 5px 8px;
+    }
+
+    section:first-child{
+        height: 40vh;
+    }
+
+    .dormitoare-section{
+        min-height: 40vh;
+    }
+    
+    .coltare-section{
+        min-height: 358vh;
+    }
+
+    [class^="col-"]{
+        width: 100% !important;
+        
+    }
+
+    [class^="card-"]{
+        max-width: 100%;
+        height: auto;
+    }
+
+    textarea{
+        align-content: center;
+        width: 310px;
+        height: 240px;
+    }
+
+    .map{
+        width: 400px;
+        height: 375px;
+    }
+
+    .card-produse h3{
+        font-size: 18px;
+    }
+    
+    .card-produse{
+        width: 100%;
+        height: auto;
+    
+       justify-content: center;
+    }
+
+    .card-contacte h3{
+        font-size: 18px;
+    }
+    
+
+    .card-contacte{
+        width: 100%;
+        height: auto;
+    
+       justify-content: center;
+    }
+
+    .card, .card .instagram, .card .facebook{
+        width: 220px;
+        height: 220px;
+        line-height: 220px;
+    
+        margin: 0 5px 5px 5px;
+    
+        color: #fff;
+        text-shadow: 0 0 2px #000;
+        font-size: 25px;
+    }
+
+    footer{
+        font-family: Roboto;
+        max-height: 500px;
+        background-color: #443c3a;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    footer h2{
+        font-size: 24px;
+    }
+
+}  
