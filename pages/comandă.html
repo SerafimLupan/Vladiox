@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="web icon" href="../images/Vladiox_SRL_logo 1.png">
+
+    <script src="../js/js/script.js"></script>
+
+    <title>Comandă</title>
+</head>
+<body>
+    <header>
+
+        <a href="../index.html"><img class="logo" src="../images/Vladiox_SRL_logo 2.png"></a>
+        
+        <navbar>
+            
+            <a class="home" href="../index.html">Acasă</a>
+            <a href="../pages/produse.html">Produse</a>
+            <a href="../pages/contacte.html">Contacte</a>
+            <a href="../pages/comandă.html">Comandă</a>
+        
+        </navbar>
+
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+
+    </header>
+
+    <main>
+
+        <section class="top-section">
+
+            <video autoplay muted loop id="index-video" src="../videos/video-comanda.mp4"></video>
+
+            <div class="section-info-comanda">
+
+                <h1 class="centered">Mobilă personalizată de orice mărimi!</h1>
+
+            </div>
+
+        </section>
+
+        <div class="row">
+
+            <div class="col-50">
+
+                <div class="card-comanda">
+
+                    <h3 class="centered">Comandă aici</h3>
+    
+                    <form id="formular" class="formular" method="post" action="https://sheetdb.io/api/v1/a1j26k11aqbpw">
+    
+                        <label for="nume"><font color="black">Nume</font><font color="red">*</font></label>
+                        <br>
+                        <input type="text" id="nume" name="data[nume]" placeholder="Rusu" required>
+    
+                        <br/>
+    
+                        <label for="prenume"><font color="black">Prenume</font><font color="red">*</font></label>
+                        <br>
+                        <input type="text" id="prenume" name="data[prenume]" placeholder="Ion" required>
+    
+                        <br/>
+    
+                        <label for="telefon"><font color="black">Telefon</font><font color="red">*</font></label>
+                        <br>
+                        <input type="tel" id="telefon" name="data[telefon]" placeholder="+37312345678" pattern="[+,0-9]{12}" title="Număr de telefonformat din 12 caractere și cu +373 la început!" required>
+    
+                        <br/>
+    
+                        <label for="raionul"><font color="black">Raionul</font><font color="red">*</font></label>
+                        <br>
+                        <select id="raionul" name="data[localitate]" required>
+                            <option>Chișinău</option>                     
+                            <option>Comrat</option>
+                            <option>Bălți</option>
+                            <option>Tiraspol</option>
+                            <option>Anenii Noi</option>
+                            <option>Basarabeas</option>                            
+                            <option>Briceni</option>
+                            <option>Cahul</option>
+                            <option>Cantemir</option>
+                            <option>Călărași</option>
+                            <option>Căușeni</option>
+                            <option>Cimișlia</option>
+                            <option>Criuleni</option>
+                            <option>Dondușeni</option>
+                            <option>Drochia</option>
+                            <option>Dubăsari</option>
+                            <option>Edineț</option>
+                            <option>Fălești</option>
+                            <option>Florești</option>
+                            <option>Glodeni</option>
+                            <option>Hîncești</option>
+                            <option>Ialoveni</option>
+                            <option>Leova</option>
+                            <option>Nisporeni</option>
+                            <option>Ocnița</option>
+                            <option>Orhei</option>
+                            <option>Rezina</option>
+                            <option>Rîșcani</option>
+                            <option>Sîngerei</option>
+                            <option>Soroca</option>
+                            <option>Strășeni</option>
+                            <option>Șoldănești</option>
+                            <option>Ștefan Vodă</option>
+                            <option>Taraclia</option>
+                            <option>Telenești</option>
+                            <option>Ungheni</option>                
+                        </select>
+
+                        <label for="text"><h3 class="centered"><font color="black">Condiții suplimentare (opțional)</font></h3></label>
+
+                        <br/>
+
+                        <textarea id="text" rows="5" cols="22" name="data[text]"></textarea>
+
+                        <input id="submit" type="submit" value="Comandă">
+    
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="col-50">
+
+                <div class="card-comanda">
+
+                    <h3 class="centered">Tutorial</h3>
+
+                    <p>1.
+                        Înregistrați comanda dumneavoastră.
+                    </p>
+
+                    <p>2.
+                        Operatorul nostru vă contactează pentru a confirma comanda dumneavoastră.
+                    </p>
+
+                    <p>3.
+                        Comunicați operatorului cele necesare pentru a efectua următoarele acțiuni:
+                    </p>
+
+                    <ul>
+                        <li>Va trimite 1 sau 2 măsurători la domiciliu pentru a efectua măsuri de a produce schița pecare să o producă în fabrică.</li>
+                        <li>Vor crea mobila comandată în decurs de 2-3 săptămâni.</li>
+                        <li>Vă vor livra la domiciliu</li>
+                    </ul>
+                </div>
+
+            </div>
+        
+        </div>
+
+
+    </main>
+
+    <footer>
+        <h3>©️ Serafim Lupan Căușeni 2022-2023</h3>
+    </footer>
+
+    <script src="../js/js/script.js"></script>
+
+</body>
+</html>
